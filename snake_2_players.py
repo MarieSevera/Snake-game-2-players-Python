@@ -153,6 +153,8 @@ while True:
     # heads collision
     if head.distance(head2) < 20 or head2.distance(head) < 20:
        crash() 
+       purple = 0
+       yellow = 0
 
     # head-tail collision
     for index in tail:
